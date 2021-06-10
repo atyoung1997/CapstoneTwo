@@ -1,0 +1,61 @@
+Model Type: ScikitLearn RandomForestClassifier
+
+Model Parameters:
+
+'bootstrap': True,
+'ccp_alpha': 0.0,
+'class_weight': 'balanced',
+'criterion': 'entropy',
+'max_depth': None,
+'max_features': 'auto',
+'max_leaf_nodes': None,
+'max_samples': None,
+'min_impurity_decrease': 0.0,
+'min_impurity_split': None,
+'min_samples_leaf': 1,
+'min_samples_split': 50,
+'min_weight_fraction_leaf': 0.0,
+'n_estimators': 100,
+'n_jobs': -1,
+'oob_score': False,
+'random_state': 123,
+'verbose': 0,
+'warm_start': False
+
+Model Performance on Test Set:
+
+'precision': 0.47027388109552437,
+'recall': 0.7205731832139202,
+'f1-score': 0.5691188358932902
+
+Feature Importances:
+
+('Year', 0.15211734897392643),
+('pub_avg_prior_sales', 0.3963342683448097),
+('x0_Action', 0.015223209609030897),
+('x0_Adventure', 0.02796172291489303),
+('x0_Fighting', 0.010764436344535238),
+('x0_Misc', 0.015377953073553906),
+('x0_Platform', 0.01255654024525336),
+('x0_Puzzle', 0.007987564116696556),
+('x0_Racing', 0.010391839578415609),
+('x0_Role-Playing', 0.013763775929971942),
+('x0_Shooter', 0.012256945149770453),
+('x0_Simulation', 0.010328060570499007),
+('x0_Sports', 0.012181599777241649),
+('x0_Strategy', 0.011742760918482134),
+('x1_Console', 0.04733932331492418),
+('x1_PC', 0.012487321288066284),
+('x1_Portable', 0.029581081354467312),
+('x2_Activision', 0.006946594639633332),
+('x2_Capcom', 0.0044403071269916),
+('x2_Electronic Arts', 0.03019487004693452),
+('x2_Konami Digital Entertainment', 0.006884579871629596),
+('x2_Namco Bandai Games', 0.013881154905877168),
+('x2_Nintendo', 0.04196714146851277),
+('x2_Other', 0.06456814753137591),
+('x2_Sega', 0.006706464222655592),
+('x2_Sony Computer Entertainment', 0.006738684018889627),
+('x2_THQ', 0.005279424886078685),
+('x2_Take-Two Interactive', 0.003984529815806248),
+('x2_Ubisoft', 0.010012349961077303)
